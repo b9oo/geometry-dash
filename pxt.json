@@ -1,7 +1,7 @@
 {
     "name": "geometrydash",
     "version": "1.0.0",
-    "description": "Geometry Dash for MakeCode Arcade",
+    "description": "Geometry Dash tiles, gamemodes, and tools for MakeCode Arcade",
     "license": "MIT",
     "dependencies": {
         "device": "*",
@@ -11,7 +11,10 @@
         "main.ts",
         "README.md"
     ],
-    "icon": "./static/icon.png",     ← this line must exist
     "color": "#FF0088",
-    "supportedTargets": ["arcade"]
+    "supportedTargets": ["arcade"],
+    "targetVersions": {
+        "target": "arcade",
+        "pxt": "8.0.0"
+    }
 }
